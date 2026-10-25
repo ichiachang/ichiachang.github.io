@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>I-Chia Chang</title>
+  <meta name="description" content="I-Chia Chang, Ph.D. student in Mechanical Engineering at Purdue University, working on humanoid robots on moving surfaces.">
+  <script>try { const t = localStorage.getItem("theme"); if (t) document.documentElement.dataset.theme = t; } catch {}</script>
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Source+Serif+4:wght@400;600&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.4/css/academicons.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="index.html">I-Chia Chang</a>
+      <nav class="nav">
+        <a class="active" href="index.html">Home</a>
+        <a href="publications.html">Publications</a>
+        <a href="assets/cv/CV_IChiaChang.pdf" target="_blank" rel="noopener">CV</a>
+        <button id="theme-toggle" class="theme-toggle" type="button"></button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <img class="headshot" src="assets/img/i-chia-chang-headshot.jpg" alt="Portrait of I-Chia Chang">
+      <div>
+        <h1>I-Chia Chang<span class="native">張益嘉</span></h1>
+        <p class="role">Ph.D. Student, Mechanical Engineering · Purdue University</p>
+        <div class="bio">
+          <p>
+            I am a Ph.D. student in Mechanical Engineering at Purdue University, where I work in the
+            <a href="https://www.thetracelab.com/?_ga=2.160767997.1354281329.1665848599-1557237661.1657546157" target="_blank" rel="noopener">TRACE Lab</a> with Prof. <a href="https://www.thetracelab.com/ygu.html" target="_blank" rel="noopener">Yan Gu</a>.
+            My research interests include humanoid robotics, hybrid dynamical systems, adaptive control, reduced-order modeling, and control methods that combine model-based and learning-based approaches.
+          </p>
+          <p>
+            Before Purdue, I received my B.S. in Mechanical Engineering with a minor in Physics from National Taiwan University.
+            During my undergraduate studies, I worked on bio-inspired legged robots (RHex) and a leg-wheel transformable robot at <a href="https://biorola.me.ntu.edu.tw/" target="_blank" rel="noopener">BioRoLa</a> under the guidance of Prof. <a href="http://peichunlin.me.ntu.edu.tw/" target="_blank" rel="noopener">Pei-Chun Lin</a>.
+            In addition to robotics research, I took thirteen courses in the Teacher Education Program at NTU and founded an educational robotics <a href="https://www.facebook.com/NTUROBOTICS/?ref=NONE_xav_ig_profile_page_web#" target="_blank" rel="noopener">club</a>.
+          </p>
+        </div>
+        <div class="social">
+          <a href="mailto:chang970@purdue.edu"><i class="fa-solid fa-envelope"></i>Email</a>
+          <a href="https://scholar.google.com/citations?user=LBpJi8kAAAAJ" target="_blank" rel="noopener"><i class="ai ai-google-scholar"></i>Google Scholar</a>
+          <a href="https://www.linkedin.com/in/i-chia-chang-880063256/" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin"></i>LinkedIn</a>
+          <a href="assets/cv/CV_IChiaChang.pdf" target="_blank" rel="noopener"><i class="fa-solid fa-file-pdf"></i>CV</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-title"><h2>News</h2></div>
+      <ul class="news">
+        <li><time>Oct 2026</time><span>New preprint on adaptive disturbance rejection for humanoid walking under unknown ground motion. <a href="https://arxiv.org/abs/2610.23879">[arXiv]</a></span></li>
+        <li><time>Oct 2026</time><span>Co-organizing the <a href="https://iros-2026-athletic-humanoid.github.io/workshop/">Perception and Decision Making for Athletic Humanoid Robotics</a> workshop at IROS 2026.</span></li>
+        <li><time>Aug 2026</time><span>“Evolution of Humanoid Locomotion Control” was published in <em>Science Robotics</em>.</span></li>
+        <li><time>Jun 2026</time><span>Two papers accepted to IROS 2026.</span></li>
+        <li><time>Apr 2026</time><span>Our survey on legged robots in non-inertial environments is on <a href="https://arxiv.org/abs/2604.20990">arXiv</a>.</span></li>
+        <li><time>Jan 2026</time><span>Received the Best Overall Poster award at the <a href="https://purdue-icon-src.github.io/2026/" target="_blank" rel="noopener">2026 ICON Student Research Conference</a>.</span></li>
+      </ul>
+      <details class="more-news">
+        <summary>Older news</summary>
+        <ul class="news">
+          <li><time>Jul 2025</time><span>Presented adaptive ankle torque control for humanoid walking on moving surfaces at ACC 2025 in Denver.</span></li>
+          <li><time>Aug 2023</time><span>Started my Ph.D. at Purdue University as a Ross Fellow.</span></li>
+        </ul>
+      </details>
+    </section>
+
+    <section class="section">
+      <div class="section-title">
+        <h2>Selected Publications</h2>
+        <a href="publications.html">All publications →</a>
+      </div>
+      <div id="selected-pubs"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">© 2026 I-Chia Chang · Last updated October 2026</div>
+  </footer>
+
+  <script src="assets/js/publications.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
